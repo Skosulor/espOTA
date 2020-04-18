@@ -17,3 +17,7 @@ arugments:
 - /ssid_i/, the wifi SSID
 - /pass_i/, the wifi password
 - /ota_address_i/, the address of your http server for OTA, e.g. "http://192.168.1.4:8000/app.bin"
+
+
+GPIO 0 is set as an interrupt and will initiate an OTA. On several devkits (such
+as devkitC), GPIO 0 is the boot button.
