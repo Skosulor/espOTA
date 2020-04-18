@@ -2,11 +2,11 @@
 Easily add OTA functionality to your esp-idf project without certificates
 (non-secure).
 * Usage
-If wifi is configured through example configuration then:
-call *void init_ota_default(char *addr)* where /addr/ is your http server.
+If wifi is configured through example configuration then:\\
+call *void init_ota_default(char *addr)* where /addr/ is your http server.\\
 
-else use:
-*init_ota(int init_flash, int use_example_wifi, char *ssid_i, char *pass_i, char *ota_address_i)*
+else use:\\
+*init_ota(int init_flash, int use_example_wifi, char *ssid_i, char *pass_i, char *ota_address_i)*\\
 
 arugments:
 
